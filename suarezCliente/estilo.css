@@ -1,0 +1,474 @@
+* {
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.cabezera {
+    width: 90%;
+    margin: auto;
+}
+
+header {
+    padding: 10px 0;
+}
+ .cabezera2 .cabeza {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+	
+ }
+
+ header .itszn {
+     text-align: right;
+	 padding-left: 10px;
+	 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+header .encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+header .logo {
+	width: 139px;
+    height: 44px;
+}
+
+header .logotec {
+	width: 3%;
+    height: 5%;
+}
+
+header nav a {
+	color: black;
+	text-decoration: none;
+	margin-right: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    font-size: 100;
+}
+
+header nav a:hover,
+header nav a.activo {
+	color: gray;
+}
+
+.encabezado .boton ,.botonl {
+    background: rgba(221, 210, 210, 0.13);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: black;
+	margin-right: 5px;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 10;
+}
+
+
+.arriba .boton{
+	
+	background: rgba(221, 210, 210, 0.13);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: black;
+	margin-left: 0%;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 20px;
+}
+.cabezera2 .botoni {
+	background: rgba(221, 210, 210, 0.13);
+	border: none;
+	border-radius: 0.31em;
+	padding: 3px 4px;
+	color: black;
+	
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 20px;
+}
+
+.arriba .boton:hover{
+	background: rgba(37, 199, 110, 0.616);
+	
+}
+
+.encabezado .botonl i {
+	margin-right: 1.25em;
+}
+
+.cabezera2 .botoni:hover {
+	background: rgba(122, 153, 255, 0.13);
+	
+}
+
+
+.cabezera2 .botonl :hover{
+	background: rgba(37, 199, 110, 0.616);
+}
+/*________________________boton___________________________________________*/
+
+.pelicula-principal .boton {
+	background: rgba(0,0,0, 0.5);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 1.12em;
+}
+
+.pelicula-principal .boton:hover {
+	background: #fff;
+	color: #000;
+}
+
+.pelicula-principal .boton i {
+	margin-right: 1.25em;
+}
+
+ 
+.peliculas-recomendadas .contenedor-principal .flecha-izquierda,
+.peliculas-recomendadas .contenedor-principal .flecha-derecha {
+	position: absolute;
+	border: none;
+	background: rgba(0,0,0,0.3);
+	font-size: 40px;
+	height: 50%;
+	top: calc(50% - 25%);
+	line-height: 40px;
+	width: 50px;
+	color: #fff;
+	cursor: pointer;
+	z-index: 500;
+	transition: .2s ease all;
+}
+
+.peliculas-recomendadas .contenedor-principal .flecha-izquierda:hover,
+.peliculas-recomendadas .contenedor-principal .flecha-derecha:hover {
+	background: rgba(0,0,0, .9);
+}
+
+.peliculas-recomendadas .contenedor-principal .flecha-izquierda {
+	left: 0;
+}
+
+.peliculas-recomendadas .contenedor-principal .flecha-derecha {
+	right: 0;
+}
+/*------------------------presentacion -----------------------------------*/
+.cuerpo {
+    
+        font-size: 16px;
+        min-height: 40.62em;
+        color: #fff;
+        background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(extra/back.jpg);
+        background-position: center center;
+        background-size: 100%;
+        margin-bottom: 3.12em;
+        display: flex;
+        align-items: end;
+        
+    
+}
+
+.cuerpo .elementos {
+    margin: 0 auto;
+    margin-top: 240px;
+}
+
+.cuerpo .texto1 {
+    font-weight: 600;
+	font-size: 180%;
+	margin-bottom: 0.4em;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cuerpo .cartel {
+    font-weight: bold;
+	font-size: 400%;
+	margin-bottom: 110;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.cuerpo .botoncompra {
+    background: rgba(255, 254, 254, 0.616);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: black;
+	margin-left: 30%;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 30;
+    margin-top: 10px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+}
+
+.cuerpo .botoncompra:hover{
+	background: rgb(255, 255, 255);
+}
+
+/*------------------------presentacion -----------------------------------*/
+
+.joyeria-encabezado {
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+    margin-left: 70px;
+}
+
+.joyeria-encabezado h3 {
+	color: black;
+	font-size: 30px;
+}
+
+/*------------------------ elementos -----------------------------------*/
+
+
+/* ---- ----- ----- Contenedor Titulo y Controles ----- ----- ----- */
+.contenedor-titulo-controles {
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+	margin-bottom: 20px;
+	
+}
+
+.contenedor-titulo-controles h3 {
+	color: black;
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.contenedor-titulo-controles .indicadores button {
+	background: #fff;
+	height: 3px;
+	width: 10px;
+	cursor: pointer;
+	border: none;
+	margin-right: 2px;
+}
+
+.contenedor-titulo-controles .indicadores button:hover,
+.contenedor-titulo-controles .indicadores button.activo {
+	background: gray;
+}
+
+
+/* ---- ----- ----- Contenedor Principal y Flechas ----- ----- ----- */
+.peliculas-recomendadas {
+	margin-bottom: 70px;
+	padding-left: 5%;
+}
+
+.peliculas-recomendadas .contenedor-principal {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+
+
+
+
+/* ---- ----- ----- Carousel ----- ----- ----- */
+.peliculas-recomendadas .contenedor-carousel {
+	width: 90%;
+	padding-left: 70px 0;
+	overflow: hidden;
+	scroll-behavior: smooth;
+	
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula {
+	
+	transition: .3s ease all;
+	box-shadow: 5px 5px 10px rgba(0,0,0, .3);
+	margin-left: 2%;
+	width: 100%;
+	min-width: 10%;
+}
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula p {
+	font-size: 120%;
+	left: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	min-width: 10%;
+}
+/*stars---------------------------------------------------------------------*/
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula label {
+	
+	cursor: pointer;
+	width: 20px;
+	background: white;
+	transform: translate(-50%, -50%) rotateY(180deg);
+	
+	top: 50%;
+	left: 70%;
+	
+	
+	
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula input {
+	
+	display:none;
+	
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula label:before {
+	
+	content: '\f005';
+	font-family: fontAwesome;
+	position: relative;
+	font-size: 20px;
+	left: 20px;
+	color: #101010;
+	
+}
+
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula label:after {
+	
+	content: '\f005';
+	font-family: fontAwesome;
+	position: absolute;
+	font-size: 20px;
+	color: #dee200;
+	
+	top: 1;
+	opacity: 0;
+	text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula label:hover:after,
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula label:hover ~ label::after,
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula input:checked ~ label:after {
+	opacity: 1;
+	
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula img {
+	min-width: 100%;
+	min-height: 50%;
+	width: 100%;
+	vertical-align: top;
+	
+}
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula .aaa {
+	text-decoration: none;
+	color: black;
+	
+}
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula.hover {
+	transform: scale(1.2);
+	transform-origin: center;
+}
+
+
+/*-------------------------------left--------------------------------*/
+.left {
+	width: 200px;
+	float: left;
+	padding: 10px;
+	border-right: 2px  solid #bbb;
+	font-size: 12px;
+	margin-bottom: 20%;
+	background: rgba(172, 157, 157, 0.616);
+}
+
+.left ul {
+	
+	padding: 5px 10px 20px;
+	color: #57626A;
+	margin-left: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	margin-bottom: 20px;
+}
+
+.left li{
+	margin-bottom: 10px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	margin-top: 1px;
+	font-weight: 600;
+}
+
+
+.left h2 {
+	height: 30px;
+	font-size: 20px;
+	color: #666;
+	line-height: 50px;
+	font-weight: 600px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 20px;
+	
+}
+
+.left a  {
+	text-decoration: none;
+	color: black;
+}
+
+.left a:hover{
+	color: white;
+}
+/*pantalla----------------------------------------------*/
+@media screen and (max-width: 800px) {
+	header .logotipo {
+		margin-bottom: 10px;
+		font-size: 30px;
+	}
+
+	header .contenedor {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.pelicula-principal {
+		font-size: 14px;
+	}
+
+	.pelicula-principal .descripcion {
+		max-width: 100%;
+	}
+
+	.peliculas-recomendadas .contenedor-carousel {
+		overflow: visible;
+	}
+
+	.peliculas-recomendadas .contenedor-carousel .carousel {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 20px;
+	}
+
+	.peliculas-recomendadas .indicadores,
+	.peliculas-recomendadas .flecha-izquierda,
+	.peliculas-recomendadas .flecha-derecha {
+		display: none;
+	}
+}
